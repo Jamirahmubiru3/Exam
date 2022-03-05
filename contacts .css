@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(24,24,24)), url(pap.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+}
+.address{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.address p{
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    font-family: Alaska;
+}
+.contact{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contact form .input-controls input{
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    background: rgba(0,0,0.6);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.contact form .input-controls textarea{
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgba(0,0,0.6);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.contact form.input-controls::after
+.contact form.input-controls textarea{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: Alaska;
+}
+.contact form.input-button button{
+    width: 150px;
+    height: 40px;
+    float: right;
+    border: none;
+    border-radius: 15px;
+    background :blue
+    color: #fff;
+    transition: 500ms;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
